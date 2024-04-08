@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receptor de información del jugador</title>
+</head>
+<body>
+    <h1>¡Bienvenido al receptor de información del jugador!</h1>
+    <?php
+    // Obtener la información del jugador desde la solicitud POST
+    $jugador = $_POST['jugador'];
+
+    // Mostrar la información del jugador
+    echo "<p>La información del jugador es: $jugador</p>";
+    ?>
+</body>
+</html>
